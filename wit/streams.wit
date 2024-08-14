@@ -1,0 +1,7 @@
+package wrpc:streams;
+
+interface output-stream-ext {
+    use wasi:io/streams@0.2.0.{output-stream};
+
+    new: func() -> output-stream;
+}
